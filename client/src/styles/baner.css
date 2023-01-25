@@ -1,0 +1,172 @@
+.baner1-img {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.baner1-img img {
+  border-radius: 5px;
+}
+
+
+.baner1-grid {
+  display: grid;
+  margin: 10px;
+}
+
+.img-baner1 {
+  padding: 20px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .baner1-grid {
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .banerCar1b {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (min-width: 1001px) {
+  .baner1-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .banerCar1a {
+    margin-bottom: 30px;
+  }
+
+  .banerCar1b {
+    margin-bottom: 30px;
+  }
+
+}
+
+.baner-1 {
+  padding: 30px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 2);
+}
+
+
+/* baner 2*/
+
+.baner-2 {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 2);
+  margin-top: 20px;
+}
+
+.baner2-img {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.baner2-img img {
+  border-radius: 5px;
+}
+
+
+.baner2-grid {
+  display: grid;
+  margin: 10px;
+}
+
+.img-baner2 {
+  padding: 20px;
+}
+
+.img-baner2 img {
+  max-height: 370px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .baner2-grid {
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .banerCar2b {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (min-width: 1001px) {
+  .baner2-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .banerCar2a {
+    margin-bottom: 30px;
+  }
+
+  .banerCar2b {
+    margin-bottom: 30px;
+  }
+
+}
+
+
+/*baner 3 */
+
+.baner-3 {
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.img-baner3 img {
+  max-width: 400px;
+}
+
+.baner3-grid {
+  display: grid;
+  margin: 10px;
+}
+
+.img-baner3 img {
+  border-radius: 3px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .baner3-grid {
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .banerCar3b {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (min-width: 1001px) {
+  .baner3-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .banerCar3a {
+    margin-bottom: 30px;
+  }
+
+  .banerCar3b {
+    margin-bottom: 30px;
+  }
+
+}
+
+.detailIris {
+  margin: 20px;
+  text-align: justify;
+}

@@ -1,0 +1,12 @@
+
+POST  http://localhost:9090/login
+
+
+# {   
+#     "name": "Ihrat Pramudya",
+#     "email": "ihratp@mail",
+#     "password": "12345",
+#     "role": "1"
+# }
+
+# GET http://localhost:9090/obat/detail/7

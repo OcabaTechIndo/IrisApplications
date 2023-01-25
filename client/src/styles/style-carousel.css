@@ -1,0 +1,125 @@
+main header {
+    width: 98%;
+    height: 60px;
+    /*background: gray;*/
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    padding: 50px;
+    position: relative;
+    top: 30px;
+}
+
+header p span {
+    font-size: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #555;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+header p span:hover {
+    background: #222;
+    color: white;
+}
+
+.home-list-element {
+    width: 98%;
+    height: 600px;
+    /*background: red;*/
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+section::-webkit-scrollbar {
+    display: none;
+}
+
+section .card-product-obat {
+    min-width: 24%;
+    background: white;
+    margin: 0 60px 0 0;
+    border-radius: 20px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+
+}
+
+
+@media (max-width: 600px) {
+    .content-button p span {
+        font-size: 30px;
+    }
+
+    section .card-product-obat {
+        min-width: 20%;
+        margin: 0 300px 0 0;
+    }
+
+    .text h1 {
+        font-size: 35px;
+    }
+
+    .text p {
+        width: 90%;
+    }
+
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 25px;
+        width: fit-content;
+    }
+
+    header p span {
+        font-size: 30px;
+    }
+
+    header p {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    header p {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) {
+    section .card-product-obat {
+        min-width: 20%;
+        margin: 0 250px 0 0;
+    }
+}
+
+@media (min-width: 769px) {
+    section .card-product-obat {
+        min-width: 20%;
+        margin: 0 220px 0 0;
+    }
+
+
+}
+
+@media (min-width: 1034px) {
+    section .card-product-obat {
+        min-width: 20%;
+        margin: 0 180px 0 0;
+    }
+}
+
+/* */

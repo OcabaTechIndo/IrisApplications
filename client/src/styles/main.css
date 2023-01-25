@@ -1,0 +1,626 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding-bottom: 32px;
+  margin-top: 90px;
+  height: 100%;
+}
+
+.optimalin-gambar {
+  height: 213px;
+  object-fit: contain;
+}
+
+.card-img-top {
+  border-radius: 5px 5px 0px 0px;
+}
+
+/*navigasi*/
+.breadcrumb-item :active {
+  color: #92E3A9;
+}
+
+#mainNav a:hover {
+  font-weight: bolder;
+  color: #92E3A9;
+}
+
+#mainNav a:active {
+  color: #165a72;
+}
+
+.navigasi-menu {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navigasi-menu img {
+  min-height: 44px;
+  min-height: 44px;
+  width: 100%;
+}
+
+.nav-link {
+  min-height: 44px;
+  min-height: 44px;
+}
+
+.hamburgerButton {
+  min-height: 44px;
+  min-height: 44px;
+}
+
+.navbar-nav {
+  gap: 10px;
+  margin-top: 11px;
+}
+
+
+/* jumbotron*/
+.jumbotron {
+  margin-top: 10px;
+  background-image: url(../public/logo/hero.jpg);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  font-weight: bold;
+  padding-top: 170px;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron hr {
+  border-color: #92E3A9;
+  border-width: 3px;
+  margin: 650px;
+}
+
+.jumbotron .btn {
+  background-color: #92E3A9;
+  border: none;
+}
+
+
+/*slider*/
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item .display-4 {
+  margin-top: -400px;
+}
+
+.carousel-item hr {
+  border-color: #92E3A9;
+  border-width: 3px;
+  margin: 400px;
+}
+
+.carousel-item .btn {
+  background-color: #92E3A9;
+  border: none;
+  color: black;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+.slider-area {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.artikel-rekomendasi {
+  padding-bottom: 20px;
+}
+
+.carousel-indicators button {
+  border-radius: 5px;
+}
+
+.carousel-indicators button:focus {
+  background-color: black;
+}
+
+.carousel-indicators .active {
+  background-color: #92E3A9;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*tombol prev and next slider*/
+.carousel-control-prev .carousel-control-prev-icon {
+  background-color: black;
+  min-height: 44px;
+  min-width: 44px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+  background-color: black;
+  min-height: 44px;
+  min-width: 44px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.carousel-item image {
+  width: 100%;
+}
+
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/* Obat */
+.katalog {
+  border-radius: 5px;
+  width: 450px;
+  margin: 30px auto auto;
+  box-shadow: 1px 7px 10px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.listObat {
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+.detailObats {
+  position: relative;
+  margin: 5px;
+}
+
+
+.detailObats img {
+  height: 450px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 7px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.rating {
+  margin: 10px;
+
+}
+
+.namaObat {
+  padding: 0 10px 10px 10px;
+}
+
+.keterangan {
+  padding: 0 10px 10px 10px;
+  text-align: justify;
+}
+
+.beli-obat {
+  background-color: #92E3A9;
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: -10px;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.header-obat {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+
+/*info kesehatan*/
+
+.katalog-info {
+  border-radius: 5px;
+  width: 450px;
+  margin: 30px auto auto;
+  box-shadow: 1px 7px 10px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.list-info {
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+.detail-info {
+  position: relative;
+  margin: 5px;
+}
+
+
+.detail-info img {
+  height: 450px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 7px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nama-info {
+  padding: 0 10px 10px 10px;
+}
+
+/*tampilan obat*/
+#containerCar {
+  margin: 10px;
+}
+
+#obat_card_list {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#list_obat {
+  margin: 0 auto;
+}
+
+#tombolBaca {
+  min-height: 44px;
+  min-width: 44px;
+  margin: 10px;
+  background-color: #92E3A9;
+  color: black;
+  border-radius: 5px;
+  padding-top: 9px;
+  border-color: transparent;
+}
+
+
+#covidCar {
+  margin: 10px;
+}
+
+#lingkunganCar {
+  margin: 10px;
+}
+
+#udaraCar {
+  margin: 10px;
+}
+
+#artikelCar {
+  margin: 10px;
+}
+
+.petunjukHalaman {
+  margin-left: 30px;
+}
+
+
+/*validation */
+
+.validation-user {
+  border-radius: 5px;
+  width: 400px;
+  height: 600px;
+  padding: 25px;
+  justify-self: center;
+}
+
+.button_login {
+  margin-top: 70px;
+  display: flex;
+}
+
+.tombol_login {
+  width: fit-content;
+  display: inline;
+}
+
+.user-valid {
+  margin-top: 50px;
+}
+
+.alert-user {
+  font-size: small;
+  padding: 5px;
+}
+
+.btn-validation {
+  background-color: #92E3A9;
+}
+
+.form-group .btn {
+  background-color: #92E3A9;
+  border: none;
+}
+
+.sliderButton {
+  background-color: #92E3A9;
+  border: none;
+  color: black;
+}
+
+/*Login Validation*/
+.container-sm {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.login_container {
+  margin: 0 auto;
+  position: relative;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card-right-validation {
+  background-color: #92E3A9;
+  width: 100%;
+}
+
+.justify-content-evenly {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-rows: 1fr 2fr;
+  grid-row-gap: 30px;
+}
+
+.image_login_content {
+  display: grid;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.form_content {
+  display: grid;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-img-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 900px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.btn-loginValidation {
+  background-color: #92E3A9;
+}
+
+/*profil about us*/
+.profil_card {
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 100%;
+  margin: auto auto;
+  margin-bottom: 25px;
+}
+
+.profil_head img {
+  width: 100%;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.profil_head figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+.profil_body {
+  font-size: 13.5px;
+  padding: 5px 10px;
+}
+
+.kenalan_profile {
+  width: 100%;
+  height: 100px;
+  font-size: large;
+  background-color: #165a72;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.kenalan_profile h2 {
+  width: fit-content;
+  position: relative;
+  top: 30px;
+  margin: 0 auto;
+}
+
+.profil_body a {
+  text-decoration: none;
+  margin: auto 0;
+  font-weight: 600;
+  color: #165a72;
+}
+
+.link_profile {
+  width: fit-content;
+  margin: 5px auto;
+}
+
+/*spin*/
+#spinner:not([hidden]) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 100;
+}
+
+#spinner::after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border: 2px solid #f3f3f3;
+  border-top: 3px solid #92E3A9;
+  border-radius: 100%;
+  will-change: transform;
+  animation: spin 1s infinite linear;
+}
+
+
+/*list car*/
+
+.divGambarObat {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.divGambarObat img {
+  max-height: 177px;
+  min-width: 250px;
+  border-radius: 2px;
+}
+
+/*artikel*/
+.divGambarArtikel {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.divGambarArtikel img {
+  min-height: 177px;
+  min-width: 250px;
+  border-radius: 2px;
+}
+
+/*Gambar covid car*/
+.divGambarCovid {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.divGambarCovid img {
+  min-height: 170px;
+  max-height: 177px;
+  min-width: 200px;
+  max-width: 250px;
+  border-radius: 2px;
+}
+
+
+
+/* All detail page*/
+.detail-view {
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+.detail-view img {
+  min-height: 400px;
+  max-height: 450px;
+  border-radius: 5px;
+}
+
+
+.titlePage {
+  padding-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.deskripsiView {
+  text-align: justify;
+}
+
+
+/*login*/
+.Grid-login {
+  display: grid;
+}
+
+.baners {
+  width: 100%;
+  height: 400px;
+}
+
+.baners img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.logo_login {
+  border-radius: 5px;
+}
+
+.iris-login h1 {
+  font-weight: bold;
+  color: #92E3A9;
+}
+
+.Grid-login button {
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
